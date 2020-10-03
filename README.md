@@ -1,6 +1,6 @@
 # The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
-<img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="800" height="450"/>
+<img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="900" height="450"/>
 
 Mission & Vision:
 This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system". Any Enterprise Grade Product design generally comprises of following essential attributes - 
@@ -22,7 +22,7 @@ Knowing how to design scalable systems will help one become a better architect, 
 Designing & architecting Hyper Scale Secured Resilient N-Tier Product System may appear as daunting as canvassing an Universe itself. There are very many moving dynamic aspects and nuances. This Repo unambiguously tries to simplify the wonderland of Product design. 
 The repo and the asscoiated artefacts is a crux of 
 - my deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past
-- my continuous learning based on Engineering solutions shared with architect community by some of the very establsihed product companies such as **Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs** et al. Please click on the [Product Company Engineering blogs](README_ProductEngineeringArchitectureBlogs_Reference.md){:target="_blank" rel="noopener"} , and take a quick holy dip into the same.
+- my continuous learning based on Engineering solutions shared with architect community by some of the very establsihed product companies such as **Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs** et al. Please click on the [Product Company Engineering blogs](README_ProductEngineeringArchitectureBlogs_Reference.md), and take a quick holy dip into the same.
 
 ***
 This repository intends to offers
@@ -43,10 +43,9 @@ This repository intends to offers
 ***
 	
 ## Sattelite view of HyperScale Distributed Resilient Secured Smart PRODUCT design
-/n
+
+
 Welcome Onboard!
-/n
-/n
 
 
 This section offers Vantage view of various dimensions of system design topics. 
