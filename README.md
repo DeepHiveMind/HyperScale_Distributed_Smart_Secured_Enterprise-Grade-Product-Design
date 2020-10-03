@@ -66,7 +66,7 @@ This section offers Sattelite view of various dimensions of system design topics
 > Each section contains links to more in-depth resources. Please click on to venture deep into the topics. 
 > Click and traverse the wonduerful space of System Design. 
 
-- Hold on for a Sec! Before we embark the long, arduous, yet-so-entertaining journey to build the **Enterprise-Grade-Product** with Next generation principles of Ssytem Designing., let us take a quick sojourn at the pitstop called - "Product Design Steps - A quick tip". 
+- Hold on for a Sec! Before we embark the long, arduous, yet-so-entertaining-&-wonderful journey to build the **Enterprise-Grade-Product** with Next generation principles of Ssytem Designing, let us take a quick sojourn at the pitstop called - "Product Design Steps - A quick tip". 
 
 - The PitStop : "Product Design Steps - A quick tip" : is all about knowing how to go about when you decide/asked to venture into the Enterprise-Grade-Product-designing trajectory.
 
