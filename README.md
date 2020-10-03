@@ -114,7 +114,6 @@ the detailed OOD design for a particular function. You may also need to design t
 
 ```
 For example, if you were asked to *"Design a url shortening service"* discuss:
-
 * Generating and storing a hash of the full url
     * [MD5] and [Base62]
     * Hash collisions
