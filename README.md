@@ -95,25 +95,28 @@ Usually, a scalable system includes webserver (load balancer), service (service 
  
 **Step 3: Design Component design**
 
-Dive into details for each core component.  
+Dive into details for each core component. 
 
+For each component, design to write the specific APIs for each component. One may need to finish
+the detailed OOD design for a particular function. You may also need to design the database schema for the database.
 
+```
 For example, if you were asked to *"Design a url shortening service"* discuss:
 
 * Generating and storing a hash of the full url
-    * [MD5](solutions/system_design/pastebin/README.md) and [Base62](solutions/system_design/pastebin/README.md)
+    * [MD5] and [Base62]
     * Hash collisions
     * SQL or NoSQL
     * Database schema
 * Translating a hashed url to the full url
     * Database lookup
 * API and object-oriented design
-
-For each component, you need to write the specific APIs for each component. You may need to finish
-the detailed OOD design for a particular function. You may also need to design the database schema for the database.
+```
 
 
-** Step 4: Scale the design
+
+
+**Step 4: Scale the design**
 
 Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?
 
