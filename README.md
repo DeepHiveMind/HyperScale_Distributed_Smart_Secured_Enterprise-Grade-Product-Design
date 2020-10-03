@@ -36,11 +36,12 @@ Target Audience:
 	
 ***
 **The Foundation:**
-Designing & architecting Hyper Scale Secured Resilient N-Tier Product System may appear as daunting as canvassing an Universe itself. There are very many moving dynamic aspects and nuances. This Repo unambiguously tries to simplify the wonderland of Product design. The repo and the asscoiated artefacts is a crux of my
-	- deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past
-	- continuous learning based on ***Real World Architectures*** and Engineering solutions shared with architect community by some of the very establsihed product companies such as ***Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs/ Intel Software Blogs/ Yahoo Engineering*** et al. 
+Designing & architecting Hyper Scale Secured Resilient N-Tier Product System may appear as daunting as canvassing an Universe itself. There are very many moving dynamic aspects and nuances.
+This Repo unambiguously tries to simplify the wonderland of Product design. The repo and the asscoiated artefacts is based on the crux of my
+	- my deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past.
+	- my continuous learning and surfing of ***Real World Architectures*** and Engineering solutions shared with architect community by some of the very establsihed product companies such as ***Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs/ Intel Software Blogs/ Yahoo Engineering*** et al. 
 	- Please click on the [Product Company Engineering blogs & Real World Architectures](README_ProductEngineeringArchitectureBlogs_Reference.md), and take a quick holy dip into the same.
-
+	
 
 Herein, my sincere endeavour is to pamper your journey with Infographics/ panoramic views of the design, the sweeping architectural constructs, and many more such delightful  elements of Next Gen Enterprise grade Product system.
 ***
