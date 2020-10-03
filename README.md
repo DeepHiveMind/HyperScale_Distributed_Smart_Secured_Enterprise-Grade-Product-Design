@@ -1,6 +1,6 @@
 # The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
-<img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="990" height="250" />
+<img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="900" height="400" />
 
 Mission & Vision:
 This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system". Any Enterprise Grade Product design generally comprises of following essential attributes - 
