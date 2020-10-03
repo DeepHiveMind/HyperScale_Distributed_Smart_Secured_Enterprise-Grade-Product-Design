@@ -3,6 +3,7 @@
 <img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="900" height="450"/>
 
 **The Mission & Vision:**
+
 This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system". Any Enterprise Grade Product design generally comprises of following essential attributes - 
 
 	- 'Hyper-scale' (Auto Scale @ hyper web scale), 
@@ -20,7 +21,7 @@ Knowing how to design scalable systems will help one become a better architect, 
 
 
 
-**The Offering & The Target Audience**
+**The Offering & The Target Audience:**
 
 This repository intends to offers
 
@@ -44,11 +45,11 @@ Target Audience::
 
 Designing & architecting Hyper Scale Secured Resilient N-Tier Product System may appear as daunting as canvassing an Universe itself. There are very many moving dynamic aspects and nuances.
 This Repo unambiguously tries to simplify the wonderland of Product design. The repo and the asscoiated artefacts is based on the crux of my
-	- my deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past.
-	- my continuous learning and surfing of ***Real World Architectures*** and Engineering solutions shared with architect community by some of the very establsihed product companies such as ***Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs/ Intel Software Blogs/ Yahoo Engineering*** et al. 
-	- Please click on the [Product Company Engineering blogs & Real World Architectures](README_ProductEngineeringArchitectureBlogs_Reference.md), and take a quick holy dip into the same.
-	
 
+- my deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past.
+- my continuous learning and surfing of ***Real World Architectures*** and Engineering solutions shared with architect community by some of the very establsihed product companies such as ***Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs/ Intel Software Blogs/ Yahoo Engineering*** et al. 
+- Please click on the [Product Company Engineering blogs & Real World Architectures](README_ProductEngineeringArchitectureBlogs_Reference.md), and take a quick holy dip into the same.
+<br/>
 Herein, my sincere endeavour is to pamper your journey with Infographics/ panoramic views of the design, the sweeping architectural constructs, and many more such delightful  elements of Next Gen Enterprise grade Product system.
 
 <br/>
