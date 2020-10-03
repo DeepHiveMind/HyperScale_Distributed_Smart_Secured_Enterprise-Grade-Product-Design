@@ -1,6 +1,7 @@
 # Sub-topic of The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
-*** Product design topics: KickOff**
+**Product design topics: KickOff**
+
     * Load balancing
     * Asynchronism
     * Caching
@@ -31,7 +32,7 @@
 			* 99.99% availability - four 9s
 			* Availability in parallel vs in sequence
 
-<img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="900" height="450"/>
+<img alt="hyperscaler" src="/images/sattelite_moving.gif" width="900" height="250"/>
 
 
 ## Product System design: KickOff
