@@ -130,24 +130,36 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 
 [[⬆]](#toc) <a name='index-of-product-design-topics'>**The Wonderful Journey : Principles of scalable Product Design**</a>  
 
-* [System design topics: start here](#system-design-topics-start-here)
-    * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
-    * [Step 2: Review the scalability article](#step-2-review-the-scalability-article)
-    * [Next steps](#next-steps)
-* [Performance vs scalability](#performance-vs-scalability)
-* [Latency vs throughput](#latency-vs-throughput)
-* [Availability vs consistency](#availability-vs-consistency)
-    * [CAP theorem](#cap-theorem)
-        * [CP - consistency and partition tolerance](#cp---consistency-and-partition-tolerance)
-        * [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
-* [Consistency patterns](#consistency-patterns)
-    * [Weak consistency](#weak-consistency)
-    * [Eventual consistency](#eventual-consistency)
-    * [Strong consistency](#strong-consistency)
-* [Availability patterns](#availability-patterns)
-    * [Fail-over](#fail-over)
-    * [Replication](#replication)
-    * [Availability in numbers](#availability-in-numbers)
+* Product design topics: KickOff
+    * Load balancing
+    * Asynchronism
+    * Caching
+	* Cloning (Server/Pod/Container replication)
+	* Vertical scaling
+    * Horizontal scaling
+    * Database replication
+    * Database partitioning
+	* Performance vs scalability]
+	* Latency vs throughput
+	* Availability vs consistency
+		* CAP theorem
+			* CP - consistency and partition tolerance
+			* AP - availability and partition tolerance
+	* Consistency patterns
+		* Weak consistency
+		* Eventual consistency
+		* Strong consistency
+	* Availability patterns
+		* Fail-over
+			* Active-active
+			* Active-passive
+		* Replication
+			* Master-slave replication
+			* Master-master replication
+		* Availability in numbers
+			* 99.9% availability - three 9s
+			* 99.99% availability - four 9s
+			* Availability in parallel vs in sequence
 * [Domain name system](#domain-name-system)
 * [Content delivery network](#content-delivery-network)
     * [Push CDNs](#push-cdns)
