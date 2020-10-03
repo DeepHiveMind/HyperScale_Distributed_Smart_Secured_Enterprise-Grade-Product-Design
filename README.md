@@ -52,12 +52,13 @@ Welcome Onboard!
 <img alt="hyperscaler" src="/images/sattelite_moving.gif" width="900" height="250"/>
 
 
-This section offers Vantage view of various dimensions of system design topics. 
+This section offers Sattelite view of various dimensions of system design topics. 
 > Each section contains links to more in-depth resources. Please click on to venture deep into the topics. 
-> Click and Pros and Cons of each 
+> Click and traverse the wonduerful space of System Design. 
 
-So, before we venture into the Agenda and related details, let us take a quick sojourn at the pitstop - "Product Design Steps - A quick tip". 
-The PitStop : "Product Design Steps - A quick tip" : is all about knowing how to go about when you decide/asked to embark the long and arduous journey to build the Enterprise-Grade-Product.
+- Hold on for a Sec! Before we embark the long, arduous, yet-so-entertaining journey to build the **Enterprise-Grade-Product** with Next generation principles of Ssytem Designing., let us take a quick sojourn at the pitstop called - "Product Design Steps - A quick tip". 
+
+- The PitStop : "Product Design Steps - A quick tip" : is all about knowing how to go about when you decide/asked to venture into the Enterprise-Grade-Product-designing trajectory.
 
 [[⬆]](#toc) **PITSTOP: Product Design Steps - A quick tip** 
 
