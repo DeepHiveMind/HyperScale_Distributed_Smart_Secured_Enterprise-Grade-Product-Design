@@ -1,6 +1,7 @@
 # Sub-topic of The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
 **Domain name system**
+
 	* DNS Servers Attribute
 		* Name server
 		* Mail exchange
