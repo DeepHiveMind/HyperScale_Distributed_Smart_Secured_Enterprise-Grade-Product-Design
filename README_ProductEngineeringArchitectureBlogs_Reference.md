@@ -8,7 +8,7 @@ Please dive into each topic if you have time. Of course, welcome to add your tho
 ## <a name='toc'>Table of Contents</a>
 - [ ] [Product Design Steps - A quick tip](#tips)
 - [ ] [Company Engineering Blogs](#blog)
-- [ ] [Products and Systems](#system)
+- [ ] [Real Products and Systems Architecture References](#system)
 - [ ] [Hot Pointers and Reference](#qs)
 - [ ] [Useful Website & Books](#intro)
 - [ ] [Good Books](#bk)
@@ -83,24 +83,14 @@ If you are going to have an onsite with a company, you should read their enginee
 * [Scalyr Engineering Blog ](https://blog.scalyr.com/)
 
 
-### [[⬆]](#toc) <a name='system'>Products and Systems:</a>
+### [[⬆]](#toc) <a name='system'> Real Products and Systems Architecture References:</a>
 
-The following papers/articles/slides can help you to understand the general design idea of different real products and systems. 
+The following papers/articles/slides offeres a high level view to understand the general design idea of different real products and systems. 
 
-* [MapReduce: Simplied Data Processing on Large Clusters](http://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/mapreduce-osdi04.pdf)
-* [Bigtable: A Distributed Storage System for Structured Data](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf)
-* [The Google File System](http://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/gfs-sosp2003.pdf)
-* [The Chubby lock service for loosely-coupled distributed systems](http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/archive/chubby-osdi06.pdf)
-* [Dynamo: Amazon's Highly Available Key-value Store](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf)
-* [Introduction to Memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached)
-* [Cassandra Introduction Features](http://www.slideshare.net/planetcassandra/cassandra-introduction-features-30103666)
-* [Introduction to HBase](http://www.slideshare.net/alexbaranau/intro-to-hbase)
-* [Introduction to MongoDB](http://www.slideshare.net/mdirolf/introduction-to-mongodb)
-* [Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
-* [Storm](http://www.slideshare.net/previa/storm-16094009)
-* [Introduction to Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper)
-* [Kafka](http://www.slideshare.net/mumrah/kafka-talk-tri-hug)
-* [YouTube Architecture](http://highscalability.com/youtube-architecture)
+
+* [Uber Architecture](http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html)
+* [YouTube Architecture -old reference](http://highscalability.com/youtube-architecture)
+* [DropBox Design](https://www.youtube.com/watch?v=PE4gwstWhmc)
 * [Scaling Pinterest](http://highscalability.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html)
 * [Google Architecture](http://highscalability.com/google-architecture)
 * [Scaling Twitter](http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster)
@@ -115,61 +105,11 @@ The following papers/articles/slides can help you to understand the general desi
 * [Scaling Mailbox](http://highscalability.com/blog/2013/6/18/scaling-mailbox-from-0-to-one-million-users-in-6-weeks-and-1.html)
 * [Salesforce Architecture ](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
 * [ESPN Architecture](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-* [Uber Architecture](http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html)
-* [DropBox Design](https://www.youtube.com/watch?v=PE4gwstWhmc)
 * [Splunk Architecture](http://www.splunk.com/view/SP-CAAABF9)
 
 ### [[⬆]](#toc) <a name='qs'>Hot Pointers and Reference:</a>
 
-There are some good references for each question. The references here are slides and articles. 
 
-**Design a CDN network**  
-Reference:  
-* [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-
-**Design a Google document system**  
-Reference:  
-* [google-mobwrite](https://code.google.com/p/google-mobwrite/)
-* [Differential Synchronization](https://neil.fraser.name/writing/sync/)
-
-**Design a random ID generation system**  
-Reference: 
-* [Announcing Snowflake](https://blog.twitter.com/2010/announcing-snowflake) 
-* [snowflake](https://github.com/twitter/snowflake/)
-
-**Design a key-value database**  
-Reference:   
-* [Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
-
-**Design the Facebook news feed function**   
-Reference:   
-* [What are best practices for building something like a News Feed?](http://www.quora.com/What-are-best-practices-for-building-something-like-a-News-Feed) 
-* [What are the scaling issues to keep in mind while developing a social network feed?](http://www.quora.com/Activity-Streams/What-are-the-scaling-issues-to-keep-in-mind-while-developing-a-social-network-feed) 
-* [Activity Feeds Architecture](http://www.slideshare.net/danmckinley/etsy-activity-feeds-architecture)
-
-**Design the Facebook timeline function**   
-Reference: 
-* [Building Timeline](https://www.facebook.com/note.php?note_id=10150468255628920) 
-* [Facebook Timeline](http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html)
-
-**Design a function to return the top k requests during past time interval**   
-Reference:  
-* [Efficient Computation of Frequent and Top-k Elements in Data Streams](http://www.cse.ust.hk/~raywong/comp5331/References/EfficientComputationOfFrequentAndTop-kElementsInDataStreams.pdf)
-* [An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows](http://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf)
-
-**Design an online multiplayer card game**   
-Reference:  
-* [How to Create an Asynchronous Multiplayer Game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)   
-* [How to Create an Asynchronous Multiplayer Game Part 2: Saving the Game State to Online Database](http://www.indieflashblog.com/how-to-create-async-part2.html)  
-* [How to Create an Asynchronous Multiplayer Game Part 3: Loading Games from the Database](http://www.indieflashblog.com/how-to-create-async-part3.html)  
-* [How to Create an Asynchronous Multiplayer Game Part 4: Matchmaking](http://www.indieflashblog.com/how-to-create-async-part4-html.html#comment-4447)  
-* [Real Time Multiplayer in HTML5](http://buildnewgames.com/real-time-multiplayer/)  
-
-**Design a graph search function**   
-Reference:   
-* [Building out the infrastructure for Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920)
-* [Indexing and ranking in Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920) 
-* [The natural language interface of Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920) and [Erlang at Facebook](http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf)
 
 **Design a picture sharing system**   
 Reference:   
@@ -213,7 +153,19 @@ Reference:
 Reference:   
 * [Introduction to Memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached)
 
+**Design an online multiplayer card game**   
+Reference:  
+* [How to Create an Asynchronous Multiplayer Game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)   
+* [How to Create an Asynchronous Multiplayer Game Part 2: Saving the Game State to Online Database](http://www.indieflashblog.com/how-to-create-async-part2.html)  
+* [How to Create an Asynchronous Multiplayer Game Part 3: Loading Games from the Database](http://www.indieflashblog.com/how-to-create-async-part3.html)  
+* [How to Create an Asynchronous Multiplayer Game Part 4: Matchmaking](http://www.indieflashblog.com/how-to-create-async-part4-html.html#comment-4447)  
+* [Real Time Multiplayer in HTML5](http://buildnewgames.com/real-time-multiplayer/)  
 
+**Design a graph search function**   
+Reference:   
+* [Building out the infrastructure for Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920)
+* [Indexing and ranking in Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920) 
+* [The natural language interface of Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920) and [Erlang at Facebook](http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf)
 
 #### Useful Websites
 
