@@ -9,8 +9,9 @@ Please dive into each topic if you have time. Of course, welcome to add your tho
 - [ ] [Company Engineering Blogs](#blog)
 - [ ] [Real World Products and Systems Architecture References](#system)
 - [ ] [Hot Pointers and Reference](#qs)
+- [ ] [Lower Level Design FAQ](#Lower-Level-Design-FAQ)
 - [ ] [Useful Website & Books](#intro)
-- [ ] [Good Books](#bk)
+
 
 
 
@@ -154,7 +155,6 @@ Power           Exact Value         Approx Value        Bytes
 40              1,099,511,627,776   1 trillion           1 TB
 ```
 
-#### Source(s) and further reading
 
 * [Powers of two](https://en.wikipedia.org/wiki/Power_of_two)
 
@@ -199,6 +199,17 @@ Handy metrics based on numbers above:
 
 ![](https://camo.githubusercontent.com/77f72259e1eb58596b564d1ad823af1853bc60a3/687474703a2f2f692e696d6775722e636f6d2f6b307431652e706e67)
 
+### Lower Level Design FAQ
+
+
+| Lower Level Design FAQ | Design Solution|
+|---|---|
+| Design a hash map | [Solution](solutions/object_oriented_design/hash_table/hash_map.ipynb)  |
+| Design a least recently used cache | [Solution](solutions/object_oriented_design/lru_cache/lru_cache.ipynb)  |
+| Design a call center | [Solution](solutions/object_oriented_design/call_center/call_center.ipynb)  |
+| Design a deck of cards | [Solution](solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb)  |
+| Design a parking lot | [Solution](solutions/object_oriented_design/parking_lot/parking_lot.ipynb)  |
+| Design a chat server | [Solution](solutions/object_oriented_design/online_chat/online_chat.ipynb)  |
 
 #### Useful Websites
 
@@ -225,6 +236,8 @@ Here are some articles about system design related topics.
 
 Of course, if you want to dive into system related topics, here is a good collection of reading list about [services-engineering](https://github.com/mmcgrana/services-engineering), and
 a good collection of material about [distributed systems](http://dancres.github.io/Pages/).
+
+
 
 
 ### [[⬆]](#toc) <a name='bk'>Good Books:</a>

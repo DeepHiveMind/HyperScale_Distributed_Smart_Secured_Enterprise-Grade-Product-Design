@@ -225,26 +225,7 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 ***Real world N-Tier Product Architectural - Low level Architectural constructs***
 Please refer to the above Section [Detailed Stop : Principles of scalable Product Design](#index-of-product-design-topics).
 
-### Source(s) and further reading
 
-Check out the following links to get a better idea of what to expect:
-
-* [How to ace a systems design interview](https://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
-* [The system design interview](http://www.hiredintech.com/system-design)
-* [Intro to Architecture and Systems Design Interviews](https://www.youtube.com/watch?v=ZgdS0EUmn70)
-* [System design template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
-
-
-| Question | |
-|---|---|
-| Design a hash map | [Solution](solutions/object_oriented_design/hash_table/hash_map.ipynb)  |
-| Design a least recently used cache | [Solution](solutions/object_oriented_design/lru_cache/lru_cache.ipynb)  |
-| Design a call center | [Solution](solutions/object_oriented_design/call_center/call_center.ipynb)  |
-| Design a deck of cards | [Solution](solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb)  |
-| Design a parking lot | [Solution](solutions/object_oriented_design/parking_lot/parking_lot.ipynb)  |
-| Design a chat server | [Solution](solutions/object_oriented_design/online_chat/online_chat.ipynb)  |
-| Design a circular array | [Contribute](#contributing)  |
-| Add an object-oriented design question | [Contribute](#contributing) |
 
 ## System design topics: start here
 
