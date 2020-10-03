@@ -1,8 +1,27 @@
 # Sub-topic of The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
+**Domain name system**
+	* DNS Servers Attribute
+		* Name server
+		* Mail exchange
+		* Address
+		* Canonical
+	* Managed DNS Service
+		* CloudFare 
+		* AWS Route 53
+		* Azure DNS
+		* GCP Cloud DNS
+	* DNS- Traffic routing methods
+		* Weighted round robin
+			* Prevent traffic from going to servers under maintenance
+			* Balance between varying cluster sizes
+			* A/B testing
+		* Latency-based (routing-policy-latency)
+		* Geolocation-based (routing-policy-geo)
+
 <img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="900" height="450"/>
 
-**Domain name system**
+
 
 ## Domain name system
 
@@ -16,12 +35,19 @@ A Domain Name System (DNS) translates a domain name such as www.example.com to a
 
 DNS is hierarchical, with a few authoritative servers at the top level.  Your router or ISP provides information about which DNS server(s) to contact when doing a lookup.  Lower level DNS servers cache mappings, which could become stale due to DNS propagation delays.  DNS results can also be cached by your browser or OS for a certain period of time, determined by the [time to live (TTL)](https://en.wikipedia.org/wiki/Time_to_live).
 
+#### DNS Servers Attribute
 * **NS record (name server)** - Specifies the DNS servers for your domain/subdomain.
 * **MX record (mail exchange)** - Specifies the mail servers for accepting messages.
 * **A record (address)** - Points a name to an IP address.
 * **CNAME (canonical)** - Points a name to another name or `CNAME` (example.com to www.example.com) or to an `A` record.
 
-Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](https://aws.amazon.com/route53/) provide managed DNS services.  Some DNS services can route traffic through various methods:
+#### Managed DNS Service
+Services such as 
+- [CloudFlare](https://www.cloudflare.com/dns/) and 
+- [Route 53](https://aws.amazon.com/route53/) provide managed DNS services.  
+
+#### DNS- traffic routing methods
+Some DNS services can route traffic through various methods:
 
 * [Weighted round robin](https://www.g33kinfo.com/info/round-robin-vs-weighted-round-robin-lb)
     * Prevent traffic from going to servers under maintenance
