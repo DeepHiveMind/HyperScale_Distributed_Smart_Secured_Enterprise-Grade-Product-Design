@@ -70,7 +70,10 @@ This section offers Sattelite view of various dimensions of system design topics
 
 - The PitStop : "Product Design Steps - A quick tip" : is all about knowing how to go about when you decide/asked to venture into the Enterprise-Grade-Product-designing trajectory.
 
+<br/>
+<br/>
 [[⬆]](#toc) <a name='pitstop'>**PITSTOP: Product Design Steps - A quick tip**</a> 
+<br/>
 
 **Step 1: Clarify the User Personal, constraints and identify the user cases** 
 
@@ -134,9 +137,10 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 * Caching
 * Database sharding
 
-***Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using [The Wonderful Journey : Principles of scalable Product Design](#index-of-product-design-topics).***
+*Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using [The Wonderful Journey : Principles of scalable Product Design](#index-of-product-design-topics).*
 
-
+<br/>
+<br/>
 [[⬆]](#toc) <a name='index-of-product-design-topics'>**The Wonderful Journey : Principles of scalable Product Design**</a>  
 <br/>
 
