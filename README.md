@@ -6,9 +6,10 @@ Mission & Vision:
 This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system" with following essential attributes - 
 
 	- 'Hyper-scale' (Auto Scale @ hyper web scale), 
-	- 'Distributed & CaaS Orachasterated', 
-	- 'Smart' (AI/ML/Ontology powered),
+	- 'Distributed & Orachasterated' (CaaS), 
+	- 'Modular, Metered & Monitored' (uS Governance),
 	- 'Secured' (Onion layers like Security for Users/APIs/Data/AI/Infra/..),
+	- 'Smart' (AI/ML/Ontology powered),
 	- 'Resilient',
 	- 'Trusted' (Provenance driven),
 	- 'Consistent deployment powered by DevSecOps',
