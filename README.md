@@ -3,7 +3,7 @@
 <img alt="hyperscaler" src="/images/horizontal-elevator.webp" width="990" height="200" />
 
 Mission & Vision:
-This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system" with following essential attributes - 
+This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system". Any Enterprise Grade Product design generally comprises of following essential attributes - 
 
 	- 'Hyper-scale' (Auto Scale @ hyper web scale), 
 	- 'Distributed & Orachasterated' (CaaS), 
