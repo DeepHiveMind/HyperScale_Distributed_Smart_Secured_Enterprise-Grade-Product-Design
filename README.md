@@ -7,11 +7,12 @@ This repo is one step towards my humble pursuit of Democratizing, simplifying & 
 
 	- 'Hyper-scale' (Auto Scale @ hyper web scale), 
 	- 'Distributed & Orachasterated' (CaaS), 
-	- 'Modular, Metered & Monitored' (uS Governance),
+	- 'Modular, Metered, Monitored & Fine-Grained' (uS Governance & management),
 	- 'Secured' (Onion layers like Security for Users/APIs/Data/AI/Infra/..),
 	- 'Smart' (AI/ML/Ontology powered),
 	- 'Resilient',
 	- 'Trusted' (Provenance driven),
+	- 'Maintainable'
 	- 'Consistent deployment powered by DevSecOps',
 	- 'Seamless one-click hosting & deployment in any Cloud / On-Prem / Hybrid Cloud Infra', 
 
@@ -21,7 +22,7 @@ Knowing how to design scalable systems will help one become a better architect, 
 Designing & architecting Hyper Scale Secured Resilient N-Tier Product System may appear as daunting as canvassing an Universe itself. There are very many moving dynamic aspects and nuances. This Repo unambiguously tries to simplify the wonderland of Product design. 
 The repo and the asscoiated artefacts is a crux of 
 - my deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past
-- my continuous learning based on Engineering solutions shared with architect community by some of the very establsihed product companies such as **Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs** et al. Please click on the [Product Company Engineering blogs](https://github.com/shashank88/system_design#company-engineering-blog-links-), and take a quick holy dip into the same.
+- my continuous learning based on Engineering solutions shared with architect community by some of the very establsihed product companies such as **Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs** et al. Please click on the [Product Company Engineering blogs](README_ProductEngineeringArchitectureBlogs_Reference.md), and take a quick holy dip into the same.
 
 ***
 This repository intends to offers
