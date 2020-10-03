@@ -144,6 +144,7 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 [[⬆]](#toc) <a name='index-of-product-design-topics'>**The Wonderful Journey : Principles of scalable Product Design**</a>  
 
 * [Product design topics: KickOff](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_KickOff.md)
+```
     * Load balancing
     * Asynchronism
     * Caching
@@ -173,7 +174,27 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 			* 99.9% availability - three 9s
 			* 99.99% availability - four 9s
 			* Availability in parallel vs in sequence
-* [Domain name system](#domain-name-system)
+```
+* [Domain name system](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_CDN.md)
+```
+	* DNS Servers Attribute
+		* Name server
+		* Mail exchange
+		* Address
+		* Canonical
+	* Managed DNS Service
+		* CloudFare 
+		* AWS Route 53
+		* Azure DNS
+		* GCP Cloud DNS
+	* DNS- Traffic routing methods
+		* Weighted round robin
+			* Prevent traffic from going to servers under maintenance
+			* Balance between varying cluster sizes
+			* A/B testing
+		* Latency-based (routing-policy-latency)
+		* Geolocation-based (routing-policy-geo)
+```
 * [Content delivery network](#content-delivery-network)
     * [Push CDNs](#push-cdns)
     * [Pull CDNs](#pull-cdns)
