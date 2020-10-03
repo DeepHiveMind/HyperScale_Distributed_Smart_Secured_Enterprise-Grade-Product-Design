@@ -196,21 +196,16 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
     * [Remote procedure call (RPC)](#remote-procedure-call-rpc)
     * [Representational state transfer (REST)](#representational-state-transfer-rest)
 * [Security](#security)
-* [FAQ on System Design](#FAQ)
-    * [Powers of two table](#powers-of-two-table)
-    * [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
-    * [Additional system design interview questions](#additional-system-design-interview-questions)
-    * [Real world architectures](#real-world-architectures)
-    * [Company architectures](#company-architectures)
-    * [Company engineering blogs](#company-engineering-blogs)
-* [Under development](#under-development)
+* [FAQ on System Design](#README_ProductEngineeringArchitectureBlogs_Reference.md)
 * [Credits](#credits)
 * [Contact info](#contact-info)
 * [License](#license)
 
 ## Real world N-Tier Product Architectural Panoramic view
 <br/>
-***Real world N-Tier Product Architectural - High level Architectural constructs:***
+
+***Real world N-Tier Product Architectural - High level Architectural constructs***
+<br/>
 <br/>
 <p align="center">
   <img src="images/jj3A5N8.png">
@@ -221,10 +216,13 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 ***Real world N-Tier Product Architectural - Mid level Architectural constructs:***
 <br/>
 <br/>
+
 <p align="center">
   <img src="images/jrUBAF7.png">
   <br/>
 </p>
+
+
 <br/>
 ***Real world N-Tier Product Architectural - Low level Architectural constructs:***
 <br/>
