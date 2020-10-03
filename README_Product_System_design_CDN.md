@@ -1,12 +1,13 @@
 # Sub-topic of The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
 **Content delivery network**
+
     * Push CDNs
     * Pull CDNs
 	* Good fit use case for Pull CDN
 	* Good fit use case for Push CDN
 
-<img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="900" height="450"/>
+<img alt="hyperscaler" src="/images/sattelite_moving.gif" width="900" height="250"/>
 
 
 
