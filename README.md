@@ -1,13 +1,12 @@
 # The NextGen Architectural Paradigm for Designing Hyper Scale Product system
 
-This is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing 
-- very many dynamic/moving dimensions of "The NextGen Architectural Paradigm, constructs & pattern for Designing Product system" with following attributes - 
-	- 'Hyper-scale', 
+This is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic/moving dimensions* of "The NextGen Architectural Paradigm, constructs & pattern for Designing Product system" with following essential attributes - 
+	- 'Hyper-scale' (Auto Scale @ hyper web scale), 
 	- 'Distributed & CaaS Orachasterated', 
-	- 'Smart (AI/ML/Ontology powered)',
-	- 'Secured',
+	- 'Smart' (AI/ML/Ontology powered),
+	- 'Secured' (Onion layers like Security for Users/APIs/Data/AI/Infra/..),
 	- 'Resilient',
-	- 'Trusted (Provenance driven)',
+	- 'Trusted' (Provenance driven),
 	- 'Consistent deployment powered by DevSecOps',
 	- 'Seamless one-click hosting & deployment in any Cloud / On-Prem / Hybrid Cloud Infra', 
 
