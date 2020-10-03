@@ -1,6 +1,8 @@
-# The NextGen Architectural Paradigm for Designing Hyper Scale Product system
+# The NextGen Architectural Paradigm for Designing "Hyper Scale Secured Resilient Product system"
 
-This is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic/moving dimensions* of "The NextGen Architectural Paradigm, constructs & pattern for Designing Product system" with following essential attributes - 
+<img alt="hyperscaler" src="/Image/horizontal-elevator.webp" width="990" height="250" />
+
+This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system" with following essential attributes - 
 
 	- 'Hyper-scale' (Auto Scale @ hyper web scale), 
 	- 'Distributed & CaaS Orachasterated', 
