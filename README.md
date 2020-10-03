@@ -1,27 +1,57 @@
-# The NextGen Architectural Paradigm for Designing "Hyper Scale Secured Resilient Product system"
+# The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
-<img alt="hyperscaler" src="/Image/horizontal-elevator.webp" width="990" height="250" />
+<img alt="hyperscaler" src="/images/horizontal-elevator.webp" width="990" height="200" />
 
-This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system" with following essential attributes - 
+Mission & Vision:
+This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system". Any Enterprise Grade Product design generally comprises of following essential attributes - 
 
 	- 'Hyper-scale' (Auto Scale @ hyper web scale), 
-	- 'Distributed & CaaS Orachasterated', 
-	- 'Smart' (AI/ML/Ontology powered),
+	- 'Distributed & Orachasterated' (CaaS), 
+	- 'Modular, Metered & Monitored' (uS Governance),
 	- 'Secured' (Onion layers like Security for Users/APIs/Data/AI/Infra/..),
+	- 'Smart' (AI/ML/Ontology powered),
 	- 'Resilient',
 	- 'Trusted' (Provenance driven),
 	- 'Consistent deployment powered by DevSecOps',
 	- 'Seamless one-click hosting & deployment in any Cloud / On-Prem / Hybrid Cloud Infra', 
 
-Knowing how to design scalable systems will help one become a better architect, and certainly helps in crsytalizing one's **business idea** take shape at scale.
+Knowing how to design scalable systems will help one become a better architect, and certainly helps in crsytalizing one's **Business idea** take shape at scale.
 
 
+Designing & architecting Hyper Scale Secured Resilient N-Tier Product System may appear as daunting as canvassing an Universe itself. There are very many moving dynamic aspects and nuances. This Repo unambiguously tries to simplify the wonderland of Product design. 
+The repo and the asscoiated artefacts is a crux of 
+- my deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past
+- my continuous learning based on Engineering solutions shared with architect community by some of the very establsihed product companies such as **Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs** et al. Please click on the [Product Company Engineering blogs](https://github.com/shashank88/system_design#company-engineering-blog-links-), and take a quick holy dip into the same.
 
-## Index of HyperScale Distributed Resilient Secured Smart PRODUCT design
+***
+This repository intends to offers
 
-> Summaries of various system design topics, including pros and cons.  **Everything is a trade-off**.
->
-> Each section contains links to more in-depth resources.
+- A Real-world vision and recipe of the design, development and operationalization of Enterprise grade N-Tier product systems.
+- A curated list of tools, frameworks and open source libraries that helps AI/ML Engineers Deploy, monitor, version, scale, and secure production machine learning.
+- A Recipe/prescription of constituents, constructs and tools for to build & opertaionize such a comprehensive, operational & production garde system.
+
+- Herein, my sincere endeavour is to pamper your journey with Infographic panoramic view of the design, the sweeping architectural constructs, and many more such delightful  elements of Next Gen Enterprise grade Product system.
+
+- Target Audience:
+	- Entereprise Architects / Solution Architects
+	- Platform Ops Architects & Engineers
+	- Microservice Architects & Engineers
+	- AI/ML Architects & Engineers
+	- DevSecOps, DataOps, MLOps, AIOps Engineers
+	
+***
+	
+## Sattelite view of HyperScale Distributed Resilient Secured Smart PRODUCT design
+/n
+Welcome Onboard!
+/n
+/n
+
+
+This section offers Vantage view of various dimensions of system design topics. 
+> Each section contains links to more in-depth resources. Please click on to venture deep into the topics. 
+> Click and Pros and Cons of each 
+
 
 <p align="center">
   <img src="images/jrUBAF7.png">
