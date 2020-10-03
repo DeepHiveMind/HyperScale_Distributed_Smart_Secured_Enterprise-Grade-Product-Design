@@ -1,6 +1,8 @@
 # Sub-topic of The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
-<img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="900" height="450"/>
+
+
+<img alt="hyperscaler" src="/images/sattelite_moving.gif" width="900" height="250"/>
 
 
 ## Content delivery network
