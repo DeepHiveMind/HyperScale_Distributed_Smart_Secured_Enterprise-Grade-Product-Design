@@ -210,20 +210,20 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 
 ## Real world N-Tier Product Architectural Panoramic view
 
-
-
+***Real world N-Tier Product Architectural - High level Architectural constructs***
 <p align="center">
   <img src="images/jj3A5N8.png">
   <br/>
 </p>
 
-
+***Real world N-Tier Product Architectural - Mid level Architectural constructs***
 <p align="center">
   <img src="images/jrUBAF7.png">
   <br/>
 </p>
 
-
+***Real world N-Tier Product Architectural - Low level Architectural constructs***
+Please refer to the above Section [Detailed Stop : Principles of scalable Product Design](#index-of-product-design-topics).
 
 ### Source(s) and further reading
 
