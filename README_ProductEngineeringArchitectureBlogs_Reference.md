@@ -1,6 +1,9 @@
 Real world large scale Product System design is a very broad topic. Even Enterprise Architects/ Veteran software engineer with many years of working experience at a top IT company may not be an expert on system design.
 
-This offers a reference to handle the system design with a systematic approach in a short time. You can dive into each topic if you have time. Of course, welcome to add your thoughts!
+<img alt="hyperscaler" src="/images/horizontal-elevator.webp" width="990" height="280"/>
+
+This offers a reference to handle the system design with a systematic approach in a short time. I have been visiting these refences to garner my point of view. 
+Please dive into each topic if you have time. Of course, welcome to add your thoughts!
 
 ## <a name='toc'>Table of Contents</a>
 - [ ] [Product Design Steps - A quick tip](#tips)
