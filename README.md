@@ -309,26 +309,56 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 			* Disadvantage(s): refresh-ahead
 	* Disadvantage(s): Cache
 ```
-* [Database](#database)
-    * [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
-        * [Master-slave replication](#master-slave-replication)
-        * [Master-master replication](#master-master-replication)
-        * [Federation](#federation)
-        * [Sharding](#sharding)
-        * [Denormalization](#denormalization)
-        * [SQL tuning](#sql-tuning)
-    * [NoSQL](#nosql)
-        * [Key-value store](#key-value-store)
-        * [Document store](#document-store)
-        * [Wide column store](#wide-column-store)
-        * [Graph Database](#graph-database)
-    * [SQL or NoSQL](#sql-or-nosql)
+* [Database](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_Database.md)
+```
+	* Database Overview
+    * NoSQL DB Overview
+	* NoSQL DB Propoerties
+		* BASE 
+			* Basically available
+			* Soft state
+			* Eventual consistency
+		* BASE vis-a-vis CAP
+	* NoSQL DB Types
+        * Key-value store
+			* Key-value store: Best Fit use case
+        * Document store
+			* Document store: Best Fit use case
+        * Wide-column store
+			* Wide-column store: Best Fit use case
+        * Graph Database
+			* Graph store: Best Fit use case
+	*  SQL or NoSQL
+		* Reasons for **SQL**
+		* Reasons for **NoSQL**
+		* Sample data well-suited for NoSQL
+			* clickstream and log data
+			* requently accessed ('hot') data
+			* Temporary data
+			* Leaderboard or scoring data
+			* Metadata/lookup tables data
+	* Relational database management system (RDBMS Overview)
+	* RDBMS DB Properties
+		* ACID
+	* RDBMS DB Scaling Techniques
+        * Master-slave replication
+        * Master-master replication
+        * Federation
+        * Sharding
+        * Denormalization
+        * SQL tuning]
+		* Tighten up the schema
+		* Use good indices
+		* Avoid expensive joins
+		* Partition tables
+		* Tune the query cache
+```
 * [Security](#security)
-* [FAQ on System Design](#README_ProductEngineeringArchitectureBlogs_Reference.md)
+* [FAQ on System Design](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_ProductEngineeringArchitectureBlogs_Reference.md)
 * [Contact info](#contact-info)
 * [License](#license)
 
-## Real world N-Tier Product Architectural Panoramic view
+## Real world N Tier Product Architectural Panoramic view
 <br/>
 
 ***Real world N-Tier Product Architectural - High level Architectural constructs***
