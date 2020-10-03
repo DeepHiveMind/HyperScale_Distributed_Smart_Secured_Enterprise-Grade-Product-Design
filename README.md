@@ -21,12 +21,13 @@ Knowing how to design scalable systems will help one become a better architect, 
 
 
 **The Offering & The Target Audience**
+
 This repository intends to offers
 
 	- A Real-world vision and recipe of the design, development and operationalization of Enterprise grade N-Tier product systems. i.e., principles of scalable system design.
 	- A curated list of tools, constructs, frameworks and open source libraries for to build & opertaionize such a comprehensive, operational & production garde system.
 
-Essense of the Offering: 
+Essence of the Offering: 
 - [The Wonderful Journey : Principles of scalable Product Design](#index-of-product-design-topics)
 - [The PitStop : "Product Design Steps - A quick tip"](#pitstop)
 
@@ -38,8 +39,9 @@ Target Audience::
 	- AI/ML Architects & Engineers | 
 	- DevSecOps, DataOps, MLOps, AIOps Engineers | 
 	
-***
+
 **The Foundation:**
+
 Designing & architecting Hyper Scale Secured Resilient N-Tier Product System may appear as daunting as canvassing an Universe itself. There are very many moving dynamic aspects and nuances.
 This Repo unambiguously tries to simplify the wonderland of Product design. The repo and the asscoiated artefacts is based on the crux of my
 	- my deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past.
@@ -48,7 +50,8 @@ This Repo unambiguously tries to simplify the wonderland of Product design. The 
 	
 
 Herein, my sincere endeavour is to pamper your journey with Infographics/ panoramic views of the design, the sweeping architectural constructs, and many more such delightful  elements of Next Gen Enterprise grade Product system.
-***
+
+<br/>
 
 ## Sattelite view of HyperScale Distributed Resilient Secured Smart PRODUCT design
 
