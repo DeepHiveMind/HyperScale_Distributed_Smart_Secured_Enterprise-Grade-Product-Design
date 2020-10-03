@@ -142,7 +142,6 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 <br/>
 
 [[⬆]](#toc) <a name='index-of-product-design-topics'>**The Wonderful Journey : Principles of scalable Product Design**</a>  
-<br/>
 
 * [Product design topics: KickOff](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_KickOff.md)
     * Load balancing
