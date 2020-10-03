@@ -31,8 +31,6 @@ This repository intends to offers
 - A curated list of tools, frameworks and open source libraries that helps AI/ML Engineers Deploy, monitor, version, scale, and secure production machine learning.
 - A Recipe/prescription of constituents, constructs and tools for to build & opertaionize such a comprehensive, operational & production garde system.
 
-- Herein, my sincere endeavour is to pamper your journey with Infographic panoramic view of the design, the sweeping architectural constructs, and many more such delightful  elements of Next Gen Enterprise grade Product system.
-
 - Target Audience:
 	- Entereprise Architects / Solution Architects
 	- Platform Ops Architects & Engineers
@@ -41,7 +39,9 @@ This repository intends to offers
 	- DevSecOps, DataOps, MLOps, AIOps Engineers
 	
 ***
-	
+
+Herein, my sincere endeavour is to pamper your journey with Infographic panoramic view of the design, the sweeping architectural constructs, and many more such delightful  elements of Next Gen Enterprise grade Product system.
+
 ## Sattelite view of HyperScale Distributed Resilient Secured Smart PRODUCT design
 
 
@@ -52,16 +52,36 @@ This section offers Vantage view of various dimensions of system design topics.
 > Each section contains links to more in-depth resources. Please click on to venture deep into the topics. 
 > Click and Pros and Cons of each 
 
+So, before we venture into the Agenda and related details, let us take a quick sojourn at the pitstop - "Product Design Steps - A quick tip". 
+The PitStop : "Product Design Steps - A quick tip" : is all about knowing how to go about when you decide/asked to embark the long and arduous journey to build the Enterprise-Grade-Product.
 
-<p align="center">
-  <img src="images/jrUBAF7.png">
-  <br/>
-</p>
+[[⬆]](#toc) **PITSTOP: Product Design Steps - A quick tip** 
 
-<p align="center">
-  <img src="images/jj3A5N8.png">
-  <br/>
-</p>
+**Step 1: Clarify the User Personal, constraints and identify the user cases** 
+
+To Deliberate and agreeing on the scope of the system.
+
+User cases indicate the  
+- User Persona Identification
+- main functions of the system, 
+- and constraints list the scale of the system such as 
+	
+		- requests per second, 
+		- requests types, 
+		- data written per second, 
+		- data read per second, et al.
+
+**Step 2: High-level architecture design**
+
+Sketch the important components and the connections between them, but don't go into some details. 
+Usually, a scalable system includes webserver (load balancer), service (service partition), database (primary/secondary database cluster plug cache).
+ 
+**Step 3: Component design**
+
+For each component, you need to write the specific APIs for each component. You may need to finish
+the detailed OOD design for a particular function. You may also need to design the database schema for the database.
+
+[[⬆]](#toc) **Detailed AGENDA: Product Design** 
 
 * [System design topics: start here](#system-design-topics-start-here)
     * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
@@ -145,49 +165,20 @@ This section offers Vantage view of various dimensions of system design topics.
 * [Contact info](#contact-info)
 * [License](#license)
 
-## Study guide
+## Real world N-Tier Product Architectural Panoramic view
 
-> Suggested topics to review based on your interview timeline (short, medium, long).
 
-![Imgur](images/OfVllex.png)
+<p align="center">
+  <img src="images/jrUBAF7.png">
+  <br/>
+</p>
 
-**Q: For interviews, do I need to know everything here?**
+<p align="center">
+  <img src="images/jj3A5N8.png">
+  <br/>
+</p>
 
-**A: No, you don't need to know everything here to prepare for the interview**.
 
-What you are asked in an interview depends on variables such as:
-
-* How much experience you have
-* What your technical background is
-* What positions you are interviewing for
-* Which companies you are interviewing with
-* Luck
-
-More experienced candidates are generally expected to know more about system design.  Architects or team leads might be expected to know more than individual contributors.  Top tech companies are likely to have one or more design interview rounds.
-
-Start broad and go deeper in a few areas.  It helps to know a little about various key system design topics.  Adjust the following guide based on your timeline, experience, what positions you are interviewing for, and which companies you are interviewing with.
-
-* **Short timeline** - Aim for **breadth** with system design topics.  Practice by solving **some** interview questions.
-* **Medium timeline** - Aim for **breadth** and **some depth** with system design topics.  Practice by solving **many** interview questions.
-* **Long timeline** - Aim for **breadth** and **more depth** with system design topics.  Practice by solving **most** interview questions.
-
-| | Short | Medium | Long |
-|---|---|---|---|
-| Read through the [System design topics](#index-of-system-design-topics) to get a broad understanding of how systems work | :+1: | :+1: | :+1: |
-| Read through a few articles in the [Company engineering blogs](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
-| Read through a few [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
-| Review [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
-| Work through [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Some | Many | Most |
-| Work through [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Some | Many | Most |
-| Review [Additional system design interview questions](#additional-system-design-interview-questions) | Some | Many | Most |
-
-## How to approach a system design interview question
-
-> How to tackle a system design interview question.
-
-The system design interview is an **open-ended conversation**.  You are expected to lead it.
-
-You can use the following steps to guide the discussion.  To help solidify this process, work through the [System design interview questions with solutions](#system-design-interview-questions-with-solutions) section using the following steps.
 
 ### Step 1: Outline use cases, constraints, and assumptions
 
@@ -250,79 +241,6 @@ Check out the following links to get a better idea of what to expect:
 * [Intro to Architecture and Systems Design Interviews](https://www.youtube.com/watch?v=ZgdS0EUmn70)
 * [System design template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 
-## System design interview questions with solutions
-
-> Common system design interview questions with sample discussions, code, and diagrams.
->
-> Solutions linked to content in the `solutions/` folder.
-
-| Question | |
-|---|---|
-| Design Pastebin.com (or Bit.ly) | [Solution](solutions/system_design/pastebin/README.md) |
-| Design the Twitter timeline and search (or Facebook feed and search) | [Solution](solutions/system_design/twitter/README.md) |
-| Design a web crawler | [Solution](solutions/system_design/web_crawler/README.md) |
-| Design Mint.com | [Solution](solutions/system_design/mint/README.md) |
-| Design the data structures for a social network | [Solution](solutions/system_design/social_graph/README.md) |
-| Design a key-value store for a search engine | [Solution](solutions/system_design/query_cache/README.md) |
-| Design Amazon's sales ranking by category feature | [Solution](solutions/system_design/sales_rank/README.md) |
-| Design a system that scales to millions of users on AWS | [Solution](solutions/system_design/scaling_aws/README.md) |
-| Add a system design question | [Contribute](#contributing) |
-
-### Design Pastebin.com (or Bit.ly)
-
-[View exercise and solution](solutions/system_design/pastebin/README.md)
-
-![Imgur](images/4edXG0T.png)
-
-### Design the Twitter timeline and search (or Facebook feed and search)
-
-[View exercise and solution](solutions/system_design/twitter/README.md)
-
-![Imgur](images/jrUBAF7.png)
-
-### Design a web crawler
-
-[View exercise and solution](solutions/system_design/web_crawler/README.md)
-
-![Imgur](images/bWxPtQA.png)
-
-### Design Mint.com
-
-[View exercise and solution](solutions/system_design/mint/README.md)
-
-![Imgur](images/V5q57vU.png)
-
-### Design the data structures for a social network
-
-[View exercise and solution](solutions/system_design/social_graph/README.md)
-
-![Imgur](images/cdCv5g7.png)
-
-### Design a key-value store for a search engine
-
-[View exercise and solution](solutions/system_design/query_cache/README.md)
-
-![Imgur](images/4j99mhe.png)
-
-### Design Amazon's sales ranking by category feature
-
-[View exercise and solution](solutions/system_design/sales_rank/README.md)
-
-![Imgur](images/MzExP06.png)
-
-### Design a system that scales to millions of users on AWS
-
-[View exercise and solution](solutions/system_design/scaling_aws/README.md)
-
-![Imgur](images/jj3A5N8.png)
-
-## Object-oriented design interview questions with solutions
-
-> Common object-oriented design interview questions with sample discussions, code, and diagrams.
->
-> Solutions linked to content in the `solutions/` folder.
-
->**Note: This section is under development**
 
 | Question | |
 |---|---|
