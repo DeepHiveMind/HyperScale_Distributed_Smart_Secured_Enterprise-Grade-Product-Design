@@ -284,6 +284,31 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 			* Disadvantage(s): asynchronism
 		* Disadvantage(s): application layer Microservice
 ```
+* [Cache](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_Caching.md)
+```
+	* Cache Overview
+	* Caching location
+		* Client caching
+		* CDN caching
+		* Web server caching
+		* Database caching
+		* Application caching
+    * Caching level
+		* Caching at the database query level
+		* Caching at the object level
+	* Suggestions of what to cache
+    * When to update the cache
+	* Cache update strategy
+        * Cache strategy: Cache-aside
+			* Disadvantage(s): cache-aside
+        * Cache strategy: Write-through
+			* Disadvantage(s): write through
+        * Cache strategy: Write-behind (write-back)
+			* Disadvantage(s): Write-behind
+        * Cache strategy: Refresh-ahead
+			* Disadvantage(s): refresh-ahead
+	* Disadvantage(s): Cache
+```
 * [Database](#database)
     * [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
         * [Master-slave replication](#master-slave-replication)
@@ -298,28 +323,6 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
         * [Wide column store](#wide-column-store)
         * [Graph Database](#graph-database)
     * [SQL or NoSQL](#sql-or-nosql)
-* [Cache](#cache)
-    * [Client caching](#client-caching)
-    * [CDN caching](#cdn-caching)
-    * [Web server caching](#web-server-caching)
-    * [Database caching](#database-caching)
-    * [Application caching](#application-caching)
-    * [Caching at the database query level](#caching-at-the-database-query-level)
-    * [Caching at the object level](#caching-at-the-object-level)
-    * [When to update the cache](#when-to-update-the-cache)
-        * [Cache-aside](#cache-aside)
-        * [Write-through](#write-through)
-        * [Write-behind (write-back)](#write-behind-write-back)
-        * [Refresh-ahead](#refresh-ahead)
-* [Asynchronism](#asynchronism)
-    * [Message queues](#message-queues)
-    * [Task queues](#task-queues)
-    * [Back pressure](#back-pressure)
-* [Communication](#communication)
-    * [Transmission control protocol (TCP)](#transmission-control-protocol-tcp)
-    * [User datagram protocol (UDP)](#user-datagram-protocol-udp)
-    * [Remote procedure call (RPC)](#remote-procedure-call-rpc)
-    * [Representational state transfer (REST)](#representational-state-transfer-rest)
 * [Security](#security)
 * [FAQ on System Design](#README_ProductEngineeringArchitectureBlogs_Reference.md)
 * [Credits](#credits)
