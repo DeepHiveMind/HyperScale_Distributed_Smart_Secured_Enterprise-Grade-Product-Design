@@ -1,6 +1,6 @@
 # The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
-<img alt="hyperscaler" src="/images/horizontal-elevator.webp" width="900" height="200" />
+<img alt="hyperscaler" src="/images/horizontal-elevator.webp" width="990" height="200" />
 
 Mission & Vision:
 This repo is one step towards my humble pursuit of Democratizing, simplifying & seamslessly oragnizing *very many dynamic and moving dimensions* of "The Architectural Paradigm, constructs & pattern for designing Next Genrartion Product system" with following essential attributes - 
@@ -18,9 +18,10 @@ This repo is one step towards my humble pursuit of Democratizing, simplifying & 
 Knowing how to design scalable systems will help one become a better architect, and certainly helps in crsytalizing one's **Business idea** take shape at scale.
 
 
-Building Hyper Scale Secured Resilient N-Tier Product System may appear as daunting as canvassing an Universe itself. There are very many moving dynamic aspects and nuances. The repo and the asscoiated artefacts is a crux of 
-	- my deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past
-	- my continuous learning based on Engineering solutions shared with architect community by some of the very establsihed product companies such as **Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs** et al. Please click on the [Product Company Engineering blogs](https://github.com/shashank88/system_design#company-engineering-blog-links-), and take a quick holy dip into the same.
+Designing & architecting Hyper Scale Secured Resilient N-Tier Product System may appear as daunting as canvassing an Universe itself. There are very many moving dynamic aspects and nuances. This Repo unambiguously tries to simplify the wonderland of Product design. 
+The repo and the asscoiated artefacts is a crux of 
+- my deep industry experience of conceptualizing, budiling and operationizing market renowened credible Products in past
+- my continuous learning based on Engineering solutions shared with architect community by some of the very establsihed product companies such as **Airbnb/ NetFlix / Cloudera / LinkedIn Engineering / Pinterest Engineering / Uber Engineering / Walmart Labs Tech Blog / Amazon AWS / Facebook Engineering / Google Research Blogs** et al. Please click on the [Product Company Engineering blogs](https://github.com/shashank88/system_design#company-engineering-blog-links-), and take a quick holy dip into the same.
 
 ***
 This repository intends to offers
