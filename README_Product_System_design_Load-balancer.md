@@ -1,6 +1,21 @@
 # Sub-topic of The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
 **Load balancer**
+```
+	* Additional benefits of LB
+		* SSL termination (Removes the need to install X.509 certificates)
+		* Session persistence
+	* Load Balancer - Route Traffic Method
+		* Random
+		* Least loaded
+		* Session/cookies
+		* Round robin or weighted round robin
+		* Layer 4 load-balancing
+		* Layer 7 load-balancing
+	* Load Balancing Layers
+		* Layer 4 load balancing(Transport Layer)
+		* Layer 7 load balancing(Application Layer)
+```
 
 <img alt="hyperscaler" src="/images/sattelite_moving.gif" width="900" height="250"/>
 
@@ -22,7 +37,7 @@ Load balancers distribute incoming client requests to computing resources such a
 
 Load balancers can be implemented with hardware (expensive) or with software such as HAProxy.
 
-Additional benefits include:
+### Additional benefits of LB
 
 * **SSL termination** - Decrypt incoming requests and encrypt server responses so backend servers do not have to perform these potentially expensive operations
     * Removes the need to install [X.509 certificates](https://en.wikipedia.org/wiki/X.509) on each server
@@ -30,6 +45,7 @@ Additional benefits include:
 
 To protect against failures, it's common to set up multiple load balancers, either in [active-passive](#active-passive) or [active-active](#active-active) mode.
 
+### Load Balancer - Route Traffic Method
 Load balancers can route traffic based on various metrics, including:
 
 * Random
@@ -39,11 +55,13 @@ Load balancers can route traffic based on various metrics, including:
 * [Layer 4](#layer-4-load-balancing)
 * [Layer 7](#layer-7-load-balancing)
 
-### Layer 4 load balancing
+### Load Balancing - @ Layers
+
+#### Layer 4 load balancing
 
 Layer 4 load balancers look at info at the [transport layer](#communication) to decide how to distribute requests.  Generally, this involves the source, destination IP addresses, and ports in the header, but not the contents of the packet.  Layer 4 load balancers forward network packets to and from the upstream server, performing [Network Address Translation (NAT)](https://www.nginx.com/resources/glossary/layer-4-load-balancing/).
 
-### Layer 7 load balancing
+#### Layer 7 load balancing
 
 Layer 7 load balancers look at the [application layer](#communication) to decide how to distribute requests.  This can involve contents of the header, message, and cookies.  Layer 7 load balancers terminate network traffic, reads the message, makes a load-balancing decision, then opens a connection to the selected server.  For example, a layer 7 load balancer can direct video traffic to servers that host videos while directing more sensitive user billing traffic to security-hardened servers.
 

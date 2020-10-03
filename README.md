@@ -201,14 +201,26 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 	* Good fit use case for Pull CDN
 	* Good fit use case for Push CDN
 ```
-* [Load balancer](#load-balancer)
-    * [Active-passive](#active-passive)
-    * [Active-active](#active-active)
-    * [Layer 4 load balancing](#layer-4-load-balancing)
-    * [Layer 7 load balancing](#layer-7-load-balancing)
-    * [Horizontal scaling](#horizontal-scaling)
-* [Reverse proxy (web server)](#reverse-proxy-web-server)
+* [Load balancer](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_Load-balancer.md)
+```
+	* Additional benefits of LB
+		* SSL termination (Removes the need to install X.509 certificates)
+		* Session persistence
+	* Load Balancer - Route Traffic Method
+		* Random
+		* Least loaded
+		* Session/cookies
+		* Round robin or weighted round robin
+		* Layer 4 load-balancing
+		* Layer 7 load-balancing
+	* Load Balancing Layers
+		* Layer 4 load balancing(Transport Layer)
+		* Layer 7 load balancing(Application Layer)
+```
+* [Reverse proxy (web server)](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_Reverse-proxy-web-server.md)
+```
     * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
+```
 * [Application layer](#application-layer)
     * [Microservices](#microservices)
     * [Service discovery](#service-discovery)
