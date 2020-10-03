@@ -233,7 +233,7 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 ***Real world N-Tier Product Architectural - Low level Architectural constructs:***
 <br/>
 <br/>
-Please refer to the above Section [Detailed Stop : Principles of scalable Product Design](#index-of-product-design-topics).
+Please refer to the above Section [The Wonderful Journey : Principles of scalable Product Design](#index-of-product-design-topics).
 
 
 ## Contact info
