@@ -26,13 +26,17 @@ This repository intends to offers
 	- A Real-world vision and recipe of the design, development and operationalization of Enterprise grade N-Tier product systems. i.e., principles of scalable system design.
 	- A curated list of tools, constructs, frameworks and open source libraries for to build & opertaionize such a comprehensive, operational & production garde system.
 
+Essense of the Offering: 
+- [The Wonderful Journey : Principles of scalable Product Design](#index-of-product-design-topics)
+- [The PitStop : "Product Design Steps - A quick tip"](#pitstop)
 
-Target Audience:
-	- Entereprise Architects / Solution Architects
-	- Platform Ops Architects & Engineers
-	- Microservice Architects & Engineers
-	- AI/ML Architects & Engineers
-	- DevSecOps, DataOps, MLOps, AIOps Engineers
+Target Audience:: 
+	
+	- Entereprise Architects, Principal Solution Architects | 
+	- Platform Ops Architects & Engineers | 
+	- Microservice Architects & Engineers | 
+	- AI/ML Architects & Engineers | 
+	- DevSecOps, DataOps, MLOps, AIOps Engineers | 
 	
 ***
 **The Foundation:**
@@ -61,7 +65,7 @@ This section offers Sattelite view of various dimensions of system design topics
 
 - The PitStop : "Product Design Steps - A quick tip" : is all about knowing how to go about when you decide/asked to venture into the Enterprise-Grade-Product-designing trajectory.
 
-[[⬆]](#toc) **PITSTOP: Product Design Steps - A quick tip** 
+[[⬆]](#toc) <a name='pitstop'>**PITSTOP: Product Design Steps - A quick tip**</a> 
 
 **Step 1: Clarify the User Personal, constraints and identify the user cases** 
 
