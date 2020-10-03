@@ -325,7 +325,6 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
     * [SQL or NoSQL](#sql-or-nosql)
 * [Security](#security)
 * [FAQ on System Design](#README_ProductEngineeringArchitectureBlogs_Reference.md)
-* [Credits](#credits)
 * [Contact info](#contact-info)
 * [License](#license)
 
