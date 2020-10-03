@@ -1,6 +1,10 @@
 # Sub-topic of The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
 **Content delivery network**
+    * Push CDNs
+    * Pull CDNs
+	* Good fit use case for Pull CDN
+	* Good fit use case for Push CDN
 
 <img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="900" height="450"/>
 
@@ -25,7 +29,7 @@ Serving content from CDNs can significantly improve performance in two ways:
 
 Push CDNs receive new content whenever changes occur on your server.  You take full responsibility for providing content, uploading directly to the CDN and rewriting URLs to point to the CDN.  You can configure when content expires and when it is updated.  Content is uploaded only when it is new or changed, minimizing traffic, but maximizing storage.
 
-Sites with a small amount of traffic or sites with content that isn't often updated work well with push CDNs.  Content is placed on the CDNs once, instead of being re-pulled at regular intervals.
+
 
 ### Pull CDNs
 
@@ -33,7 +37,10 @@ Pull CDNs grab new content from your server when the first user requests the con
 
 A [time-to-live (TTL)](https://en.wikipedia.org/wiki/Time_to_live) determines how long content is cached.  Pull CDNs minimize storage space on the CDN, but can create redundant traffic if files expire and are pulled before they have actually changed.
 
+### Good fit use case for Pull CDN  
 Sites with heavy traffic work well with pull CDNs, as traffic is spread out more evenly with only recently-requested content remaining on the CDN.
+### Good fit use case for Push CDN  
+Sites with a small amount of traffic or sites with content that isn't often updated work well with push CDNs.  Content is placed on the CDNs once, instead of being re-pulled at regular intervals.
 
 ### Disadvantage(s): CDN
 

@@ -194,9 +194,13 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 		* Latency-based (routing-policy-latency)
 		* Geolocation-based (routing-policy-geo)
 ```
-* [Content delivery network](#content-delivery-network)
-    * [Push CDNs](#push-cdns)
-    * [Pull CDNs](#pull-cdns)
+* [Content delivery network](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_CDN.md)
+```
+    * Push CDNs
+    * Pull CDNs
+	* Good fit use case for Pull CDN
+	* Good fit use case for Push CDN
+```
 * [Load balancer](#load-balancer)
     * [Active-passive](#active-passive)
     * [Active-active](#active-active)
