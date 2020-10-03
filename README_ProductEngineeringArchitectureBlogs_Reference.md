@@ -1,10 +1,6 @@
-[![logo](imgs/systemcycle.png)](https://github.com/checkcheckzz/system-design-interview)
+Real world large scale Product System design is a very broad topic. Even Enterprise Architects/ Veteran software engineer with many years of working experience at a top IT company may not be an expert on system design.
 
-> How to prepare system design questions for an IT company
-
-System design is a very broad topic. Even a software engineer with many years of working experience at a top IT company may not be an expert on system design. If you want to become an expert, you need to read many books, articles, and solve real large scale system design problems.
-
-This repository only teaches you how to handle the system design interview with a systematic approach in a short time. You can dive into each topic if you have time. Of course, welcome to add your thoughts!
+This offers a reference to handle the system design with a systematic approach in a short time. You can dive into each topic if you have time. Of course, welcome to add your thoughts!
 
 ## <a name='toc'>Table of Contents</a>
 - [ ] [Product Design Steps - A quick tip](#tips)
