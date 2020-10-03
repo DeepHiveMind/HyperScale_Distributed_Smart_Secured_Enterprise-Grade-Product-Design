@@ -218,6 +218,7 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 		* Layer 7 load balancing(Application Layer)
 ```
 * [Reverse proxy (web server)](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_Reverse-proxy-web-server.md)
+
 ```
 	* Additional benefits of Reverse proxy web server 
 		* Increased security
@@ -230,11 +231,59 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 			* Photos
 			* Videos
 			* Etc
-    * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
+    * Load balancer vs reverse proxy
 ```
-* [Application layer](#application-layer)
-    * [Microservices](#microservices)
-    * [Service discovery](#service-discovery)
+* [Application layer Microservices](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_ApplicationMicroservice.md)
+```
+	* Microservices Overview
+		* Service Discovery
+		* Service Discovery Health Check
+		*  Service Discovery common Tooling
+			* Etcd / Consul / Zookeeper
+			* Health check
+		* Service Communication Protocols
+			* Hypertext transfer protocol (HTTP protocol) 
+				* Common HTTP verbs
+			* Transmission control protocol (TCP protocol)
+			* User datagram protocol (UDP protocol)
+			* Use TCP over UDP when
+			* Use UDP over TCP when
+			* Remote procedure call protocol (RPC protocol)
+				* Popular RPC frameworks 
+					* Protobuf
+					* Thrift
+					* Avro
+				* RPC Protocols elements
+					* Client program
+					* Client stub procedure
+					* Client communication module
+					* Server communication module
+					*Server stub procedure 
+				* Sample RPC calls
+				* Disadvantage(s): RPC
+			* REST architectural style Protocol (REST Protocol)	
+				* Qualities of RESTful interface
+				* Sample REST calls
+				* Disadvantage(s): REST
+			* RPC and REST protocols calls comparison
+		* Service Communication Types - Synchronous &  Asynchronism
+			* Asynchronism
+			* Asynchronism Technique - Message queues Technique
+				* Message queues Tooling
+					* Redis
+					* RabbitMQ
+					* KubeMQ
+					* Amazon SQS
+			* Asynchronism Technique - Task queues Technique
+				* Task queues Tooling
+					* Celery
+			* Asynchronism Technique - RPC / gRPC Technique
+			* Asynchronism Technique - Callback Technique
+			* Asynchronism Technique - asyncio (async & await) Technique
+			* Asynchronism - Back pressure
+			* Disadvantage(s): asynchronism
+		* Disadvantage(s): application layer Microservice
+```
 * [Database](#database)
     * [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
         * [Master-slave replication](#master-slave-replication)
