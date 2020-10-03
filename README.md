@@ -219,6 +219,17 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 ```
 * [Reverse proxy (web server)](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_Reverse-proxy-web-server.md)
 ```
+	* Additional benefits of Reverse proxy web server 
+		* Increased security
+		* Increased scalability and flexibility
+		* SSL termination (Removes the need to install X.509 certificates on each server)
+		* Compression
+		* Caching
+		* Direct serving of Static content
+			* HTML/CSS/JS
+			* Photos
+			* Videos
+			* Etc
     * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
 ```
 * [Application layer](#application-layer)
