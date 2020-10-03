@@ -67,16 +67,16 @@ This section offers Sattelite view of various dimensions of system design topics
 To Deliberate and agreeing on the scope of the system. Gather requirements and scope the problem.  Ask questions to clarify use cases and constraints.  Discuss assumptions.
 
   
-- User Persona Identification
+- User Persona Identification::
 		* Who is going to use it?
 		* How are they going to use it?
 		* How many users are there?
 
-- main functions of the system, 
+- main functions of the system::
 		* What does the system do?
 		* What are the inputs and outputs of the system?
 
-- and constraints list the scale of the system such as 
+- and constraints list the scale of the system such as :: 
 		* How much data do we expect to handle?
 		* How many requests per second do we expect?
 		* What is the expected read to write ratio?	
@@ -121,10 +121,10 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 * Caching
 * Database sharding
 
-***Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using [Detailed Stop : Principles of scalable Product Design](#index-of-product-design-topics).***
+***Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using [The Wonderful Journey : Principles of scalable Product Design](#index-of-product-design-topics).***
 
 
-[[⬆]](#toc) <a name='index-of-product-design-topics'>**Detailed Stop : Principles of scalable Product Design**</a>  
+[[⬆]](#toc) <a name='index-of-product-design-topics'>**The Wonderful Journey : Principles of scalable Product Design**</a>  
 
 * [System design topics: start here](#system-design-topics-start-here)
     * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
@@ -231,22 +231,6 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 <br/>
 Please refer to the above Section [Detailed Stop : Principles of scalable Product Design](#index-of-product-design-topics).
 
-
-
-## References
-
-Special credit goes to:
-
-* [A distributed systems reading list](http://dancres.github.io/Pages/)
-* [Cracking the system design interview](http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview)
-* [Hired in tech](http://www.hiredintech.com/system-design/the-system-design-process/)
-* [Cracking the coding interview](https://www.amazon.com/dp/0984782850/)
-* [High scalability](http://highscalability.com/)
-* [checkcheckzz/system-design-interview](https://github.com/checkcheckzz/system-design-interview)
-* [shashank88/system_design](https://github.com/shashank88/system_design)
-* [mmcgrana/services-engineering](https://github.com/mmcgrana/services-engineering)
-* [kilimchoi/engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
-* [System design cheat sheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 
 ## Contact info
 
