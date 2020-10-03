@@ -20,7 +20,7 @@
 		* Latency-based (routing-policy-latency)
 		* Geolocation-based (routing-policy-geo)
 
-<img alt="hyperscaler" src="/images/Large-Building-Animation.gif" width="900" height="450"/>
+<img alt="hyperscaler" src="/images/sattelite_moving.gif" width="900" height="250"/>
 
 
 
