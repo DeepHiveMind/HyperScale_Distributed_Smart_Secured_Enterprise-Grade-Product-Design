@@ -353,7 +353,7 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 		* Partition tables
 		* Tune the query cache
 ```
-* [Security](#security)
+* [Security](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_Product_System_design_Security.md)
 * [FAQ on System Design](https://github.com/DeepHiveMind/HyperScale_Distributed_Smart_Secured_Enterprise-Grade-Product-Design/blob/main/README_ProductEngineeringArchitectureBlogs_Reference.md)
 * [Contact info](#contact-info)
 * [License](#license)

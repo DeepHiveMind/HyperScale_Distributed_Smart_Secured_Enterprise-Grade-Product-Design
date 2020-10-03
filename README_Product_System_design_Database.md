@@ -1,6 +1,49 @@
 # Sub-topic of The NextGen Architectural Paradigm for designing "Hyper Scale Secured Resilient Product system"
 
 **Database**
+```
+	* Database Overview
+    * NoSQL DB Overview
+	* NoSQL DB Propoerties
+		* BASE 
+			* Basically available
+			* Soft state
+			* Eventual consistency
+		* BASE vis-a-vis CAP
+	* NoSQL DB Types
+        * Key-value store
+			* Key-value store: Best Fit use case
+        * Document store
+			* Document store: Best Fit use case
+        * Wide-column store
+			* Wide-column store: Best Fit use case
+        * Graph Database
+			* Graph store: Best Fit use case
+	*  SQL or NoSQL
+		* Reasons for **SQL**
+		* Reasons for **NoSQL**
+		* Sample data well-suited for NoSQL
+			* clickstream and log data
+			* requently accessed ('hot') data
+			* Temporary data
+			* Leaderboard or scoring data
+			* Metadata/lookup tables data
+	* Relational database management system (RDBMS Overview)
+	* RDBMS DB Properties
+		* ACID
+	* RDBMS DB Scaling Techniques
+        * Master-slave replication
+        * Master-master replication
+        * Federation
+        * Sharding
+        * Denormalization
+        * SQL tuning]
+		* Tighten up the schema
+		* Use good indices
+		* Avoid expensive joins
+		* Partition tables
+		* Tune the query cache
+```
 
 <img alt="hyperscaler" src="/images/sattelite_moving.gif" width="900" height="250"/>
 
