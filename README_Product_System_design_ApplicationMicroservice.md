@@ -67,14 +67,22 @@ Separating out the web layer from the application layer (also known as platform 
 
 Workers in the application layer also help enable [asynchronism](#asynchronism).
 
-## Microservices Overview
+## Microservices Architecture Overview
 
 Related to this discussion are [microservices](https://en.wikipedia.org/wiki/Microservices), which can be described as a suite of independently deployable, small, modular services.  Each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal. <sup><a href=https://smartbear.com/learn/api-design/what-are-microservices>1</a></sup>
 
 Pinterest, for example, could have the following microservices: user profile, follower, feed, search, photo upload, etc.
 
-<img alt="MicroserviceArchitecture" src="/images/MicroserviceArchitecture.png" width="900" height="250"/>
+Microservice Architecture Overview can be showcased via 2 simple pictorial presentations. Here they go - 
+- Microservice Archietcture Pictorial Overview - 1
 
+<img alt="MicroserviceArchitecture" src="/images/MicroserviceArchitecture.png" width="600" height="400"/>
+
+- Microservice Archietcture Pictorial Overview - 2 
+
+<img alt="MicroserviceArchitecture" src="/images/Microervice-ommunication.png" width="600" height="400"/>
+
+<br/>
 
 ## Service Discovery
 
@@ -272,8 +280,7 @@ PUT /someresources/anId
 
 ## Service Communication - Synchronous &  Asynchronism
 
-<img alt="hyperscaler" src="/images/Microervice-ommunication.png" width="900" height="250"/>
-<br/>
+
 
 <p align="center">
   <img src="images/54GYsSx.png">
