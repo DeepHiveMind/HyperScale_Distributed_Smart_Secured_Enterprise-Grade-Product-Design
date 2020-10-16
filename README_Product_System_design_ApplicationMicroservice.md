@@ -73,6 +73,9 @@ Related to this discussion are [microservices](https://en.wikipedia.org/wiki/Mic
 
 Pinterest, for example, could have the following microservices: user profile, follower, feed, search, photo upload, etc.
 
+<img alt="MicroserviceArchitecture" src="/images/MicroserviceArchitecture.png" width="900" height="250"/>
+
+
 ## Service Discovery
 
 Systems such as [Consul](https://www.consul.io/docs/index.html), [Etcd](https://coreos.com/etcd/docs/latest), and [Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) can help services find each other by keeping track of registered names, addresses, and ports.  [Health checks](https://www.consul.io/intro/getting-started/checks.html) help verify service integrity and are often done using an [HTTP](#hypertext-transfer-protocol-http) endpoint.  Both Consul and Etcd have a built in [key-value store](#key-value-store) that can be useful for storing config values and other shared data.
@@ -268,6 +271,9 @@ PUT /someresources/anId
 </p>
 
 ## Service Communication - Synchronous &  Asynchronism
+
+<img alt="hyperscaler" src="/images/Microervice-ommunication.png" width="900" height="250"/>
+<br/>
 
 <p align="center">
   <img src="images/54GYsSx.png">
